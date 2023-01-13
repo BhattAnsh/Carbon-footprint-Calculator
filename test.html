@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testcss.css">
+    <title>test</title>
+</head>
+<body>
+        <nav class="navigationbar">
+        <div class="logo">
+            <h2 class="logo_name">CFC</h2>
+        </div>
+        <div class="items">
+            <ul class="nav_items">
+                <li class="home"><a href="index.html">Home</a>
+                </li>
+                <li class="calculate"><a href="calculate.html">Calculate</a>
+                </li>
+                <li class="about">
+                    <a href="aboutCF.html">About carbon footprint</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <center>
+        <div class="form-container" id="form-container">
+            <center class="title" id="title"><h1 style="margin-bottom: 0;">Make your home eco-friendly</h1></center>
+            <hr color="#204116" width="20%" style="margin: 0px; height: 3px;" >
+            <center><img src="images/houseSVG.svg" alt="" id="houseSVG" class="houseSVG"></center>
+            <div class="input-area-container">
+                <div class="input-area">
+                    <input type="text" name="city" id="city" class="input" placeholder="Enter your city here" required>
+                    <br>
+                    <input type="number" id="Number-of-room" name="Number-of-room" class="input" placeholder="Enter number of Bedrooms" required>
+                    <br>
+                    <input type="number" id="Number-of-balcony" name="Number-of-balcony" class="input" placeholder="Enter your number of Balcony" required>
+                    <br>
+                    <a style="text-decoration: none; color: black;" href="#suggested_home_container"><button id="suggest" class="suggest" type="submit" >Suggest home</button></a>
+                </div>
+            </div>
+        </div>
+    </center>
+    <div class="suggested_home_container" id="suggested_home_container">
+        <div class="heading">
+            <h1>
+                SUGGESTED HOME FOR YOU
+            </h1>
+            <hr color="#204116" width="30%">
+        </div>
+        <div class="text">
+            <div><img class="svg" src="images/Bedroom.svg" alt="">
+                <h1>About Bedrooms</h1>
+            </div>
+            <ol id="Bedrooms">
+                <li><h2>Bedrooms should contain 2 windows Side-by-side or opposite to each other for proper ventilation and Light in Day</h2></li>
+                <li><h2>Bedrooms should contain only 2 LED lights of 15W for good lightning in Night</h2></li>
+                <li><h2>Use bright colour on the walls of the room so the light reflects from the wall and get a better light in room in day and night both</h2></li>
+            </ol>
+            <br>
+            <div><img src="images/balcony.svg" alt="" class="svg">
+                <h1>About Balcony</h1>
+            </div>
+            <ol class="balcony">
+                <li><h2>One Balcony should be East facing and one should be west facing so and attach to the bedrooms, so you can get fresh air and U can take sunbath in winter and in the Summer due to proper vantilation you will not feel hot in your rooms (<span><b><i>Remember balcony should be in the opposite of the Windows</i></b></span>)</h2></li>
+            </ol>
+            <br>
+            <div><img src="images/Dining room.svg" alt="" class="svg">
+                <h1>About dining-room</h1>
+            </div>
+            <ol class="dining-room">
+                <li><h2>You should use glass doors and windows so the light can enter in the room and no need to turn on the light in day specially in sunny day.</h2></li>
+                <li><h2>Use 5 lights, 4 on the corners and 1 in the center of 15W LED ligths.</h2></li>
+                <li><h2>Don't use dark paint in the dining room.</h2></li>
+            </ol>
+
+
+        </div>
+    </div>
+</body>
+<script src="testlogics.js"></script>
+</html>
